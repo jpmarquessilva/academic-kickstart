@@ -5,7 +5,8 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+#title = "Academic"
+title = "Joao Marques-Silva"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -52,7 +53,8 @@ preserveTaxonomyNames = true
   hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
 	angledQuotes = false
 	latexDashes = true
-  extensions = ["backslashLineBreak"]
+  #extensions = ["backslashLineBreak"]
+  extensions = ["hardLineBreak"]
 
 [imaging]
   resampleFilter = "lanczos"
